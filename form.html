@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+<form>
+<fieldset>
+<legend>Form Fill</legend>
+
+<label>Name</label> <input type="text" name="" value="" placeholder="your name"/><br/><br/>
+
+<label>Password</label> <input type="password" name="" value=""><br/><br/>
+
+<label>Gender</label> <input type="radio" name="Gender" id="male"> <label for="male">Male</label> <input type="radio" name="Gender" id="female"> <label for="female">Female</label><br/><br/>
+
+<label>Hobbies</label> <input type="checkbox" name="hobby" id="cricket"> <label for="cricket">Cricket</label> <input type="checkbox" name="hobby" id="football"> <label for="football">Football</label><br/><br/>
+
+<label>Info</label> <textarea rows="10" cols="80"></textarea><br/><br/>
+
+<label>Country</label>  <select multiple size="3">
+
+                        <option selected>Pakistan</option>
+                        <option>India</option>
+                        <option>UAE</option>
+                        <option>USA</option>
+                        </select>
+
+<br/><br/>
+
+<label>Country</label>  <select>
+    <optgroup label="Asia">
+
+                            <option>India</option>
+                            <option selected>Pakistan</option>
+                            </optgroup>
+
+                         <optgroup label="America">
+                         <option>Canada</option>
+                         <option>USA</option>
+    </optgroup>
+
+
+                        </select>
+                        <br/><br/>
+     <label>Country</label> <input list="country">
+                            <datalist id="country">
+                            <option value="pakistan">
+                            <option value="india">
+                            <option value="uae" >
+                            <option value="usa">
+
+                            </datalist>
+                            <br/><br/>  
+
+        <label>File</label> <input type="file" accept="image/*" name=""/>
+        <br/><br/>  
+
+                <input type="submit" value="Save"/>
+
+                <input type="reset"/>
+
+                <input type="image" src="Downloads/ocean.webp"/>
+
+                        </fieldset>       
+</form>
+
+
+
+
+</body>
+</html>
